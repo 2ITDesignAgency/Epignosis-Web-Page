@@ -44,7 +44,7 @@ body{
     color: navy;
     font-weight: 800;
     text-transform: uppercase;
-    font-size: 14px;
+    font-size: 0.9em;
 }
 
 .nav-item .dropdown{
@@ -56,6 +56,7 @@ body{
 }
 /* navbar css */
 
+/* hero-css start */
 .hero-header h1{
     font-weight: 700;
     font-size: 47px;
@@ -78,6 +79,7 @@ hr{
     color:  #152d45;
 
 }
+
 
 /* Card post css */
 
@@ -122,21 +124,68 @@ margin: 90px 0 15px;
     line-height: 1.18;
 }
 
-.card:hover a {
-    display: inline-block;
-  }
+/* hero-css end */
 
-.card:hover{
-    border: 1px solid orange;
+/* blurb css */
+.blurb h5{
+    font-weight: 700;
+    font-size: 37px;
+    color: #152d45;
+    position: center;
+    padding: 20px 0px;
+    font-family: 'Poppins', sans-serif;    
 }
 
-.card:hover .card-title{
-    margin-top:10px;
+.blurb hr{
+
+    border: 3px solid orange;
+    width: 67px;
+    position: absolute;    
+}
+.blurb p{
+    font-weight: 600;
+    font-size: 18px;
+
+}
+/* blurb css end */
+
+.section-2{
+    margin-top: 6em;
+    margin-bottom: 6em;
 }
 
+.section-3{
+    background-color: #f6fafd;
+    padding: 40px;
+}
 
-.card-btn {
-    display: none;
-    border-radius: 25px;
-    background-color: orange;
+.section-3 hr{
+        border: 3px solid orange;
+        width: 4%;
+        text-align: center;
+        display: block;
+        margin-inline-start: 11.5em;
+}
+
+.subs h5{
+    font-size: 28px;
+    font-weight: 600;
+}
+
+.team{
+    max-width: 65%;
+}
+
+.image-text h5{
+    font-weight: 600;
+    font-size: 28px;
+    color: #152d45;
+    text-align: center;
+    padding: 20px 0px;
+    font-family: 'Poppins', sans-serif;  
+}
+
+.move-box{
+    overflow: visible;
+    top: 200px;
 }
