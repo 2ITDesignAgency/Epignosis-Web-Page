@@ -168,16 +168,20 @@ margin: 90px 0 15px;
 }
 
 .subs h5{
-    font-size: 28px;
-    font-weight: 600;
+    font-size: 27px;
+    font-weight: 500;
 }
-
+.company-photo{
+    padding-bottom: 8rem;
+}
 .team{
     max-width: 65%;
+    float:top;
+    margin-top: -10rem;
 }
 
 .image-text h5{
-    font-weight: 600;
+    font-weight: 700;
     font-size: 28px;
     color: #152d45;
     text-align: center;
@@ -189,3 +193,68 @@ margin: 90px 0 15px;
     overflow: visible;
     top: 200px;
 }
+
+.team-btn{
+    margin-top: 2rem;
+    background-color: #152d45;
+    border: 1px solid #152d45;
+    border-radius: 25px;
+}
+
+.team-btn a {
+    color: white;
+    font-size: 16px;
+    text-decoration: none;
+    padding: 0 20px;
+}
+
+.team-btn:hover {
+    margin-top: 2rem;
+    background-color: #152d45;
+    border: 1px solid #152d45;
+    border-radius: 25px;
+}
+
+.quote-card {
+    color: #222222;
+    padding-top: 4rem;
+    position: relative;
+    overflow: hidden;
+    min-height: 120px;
+  }
+  .quote-card p {
+    font-size: 17px;
+    line-height: 1.5;
+    margin: 0;
+    max-width: 80%;
+    font-weight: 600;
+  }
+
+  .number-text{
+      padding-top:2rem;
+      padding-bottom: 0px;
+  }
+
+  .numbers{
+      font-size: 3em;
+      font-weight: 700;
+      color: #152d45;
+  }
+  
+  .subtitle{
+    font-weight: 700;
+    margin-top: -1em;
+  }
+
+  .text{
+      font-size: 18px;
+  }
+
+  .number-text{
+      justify-content: space-between;
+  }
+
+  .column{
+      width: 30%
+  }
+ 
