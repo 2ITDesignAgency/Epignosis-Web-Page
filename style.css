@@ -1,29 +1,28 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Poppins:400,700&display=swap');
-
-body{
-    margin:0px;
-    font-family: 'Poppins', sans-serif;
-
+p{
+    font-size: 18px;
 }
-/* navbar css */
-.navbar-expand-lg .navbar-collapse {
-    justify-content: flex-end;
-    line-height: 1.8;
+.container{
+    padding: 1.5em  0px !important;
 }
+.row{
+    padding: 0.5em  0px !important;
+}
+/* navigation css */
 .navbar{
-    padding-top: 35px;
-
+    padding: 0em !important;
 }
-
-.navbar-brand{
-    justify-content: flex-start;
-    margin-left: 0px;
-    height: 22px;
-    width: auto;
+.navigation{
+    padding-top:2rem;
+    padding-left: 0em !important;
+    padding-right: 0em !important;
 }
-
-.hero-header{
+.nav-link{
+    color: navy !important;
+    font-weight: 700;
+    font-size: 14px;
+}
+/* section 1 css start */
+.hs1 { 
     background-image: url("media/header-graphic.svg");
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -32,84 +31,44 @@ body{
     background-position-x: 55rem;
     width: 100%;
     height: auto;
-}
-
-.navbar-nav .nav-link {
-    padding-left: 1rem!important;
-    padding-right: 1rem!important; 
-}
-
-
-.navbar-light .navbar-nav .nav-link {
-    color: navy;
-    font-weight: 800;
-    text-transform: uppercase;
-    font-size: 0.9em;
-}
-
-.nav-item .dropdown{
-    color: navy;
-}
-
-.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
-    color: navy;
-}
-/* navbar css */
-
-/* hero-css start */
-.hero-header h1{
+    }
+.hero h1{
+    font-size: 3.2em;
     font-weight: 700;
-    font-size: 47px;
-    line-height: 1.07;
-    color: #152d45;
-    position: center;
-    margin: 55px 0px;
-    padding: 20px 0px;
-    font-family: 'Poppins', sans-serif;
+    color: navy;
+    }
+.hero h2{
+    font-size: 3.2em;
+    font-weight: 700;
+    color: navy;    
 }
-
-hr{
+.hero .subtitle {
+    font-size: 1.4em;  
+    font-weight: 700;
+    padding-top: 1em;   
+    }
+.hero hr{
     border: 3px solid orange;
     width: 67px;
     position: absolute;
-}
-.subtitle{
-    font-weight: 500;
-    font-size: 20px;
-    color:  #152d45;
-
-}
-
-
-/* Card post css */
-
-.card-flex{
-    display: flex;
-    justify-content: space-between;
+    }
+/* card css start */
+.card {
+    border: 1px solid black !important;
+    box-shadow: 0 0 10px 0 rgba(0,0,0,.16);
+    width: 23.5rem !important;
+    height: 22rem !important;
+    margin-top: 9em;
     align-items: center;
     text-align: center;
-    margin-top:9.5em;
-}
-
-.card {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    border: 1px solid black;
-    box-shadow: 0 0 10px 0 rgba(0,0,0,.16);
+    padding-left: 2rem;
+    padding-right: 2rem;
     }
 
-.img-fluid{
-    max-width: 100%;
-    height: auto;
-}
-
-.card-flex img{
+.card img{
     margin-top: 2rem;
     height: 35px;
-    width: auto;
-    padding: auto;
-    
+    width: auto;  
 }
 
 .card-title{
@@ -119,142 +78,194 @@ margin: 90px 0 15px;
 }
 
 .card-text{
-    font-size: 22px;
-    font-weight: 500;
+    font-size: 20px;
+    font-weight: 400;
     line-height: 1.18;
 }
+/* section 1 css end */
 
-/* hero-css end */
-
-/* blurb css */
-.blurb h5{
-    font-weight: 700;
-    font-size: 37px;
-    color: #152d45;
-    position: center;
-    padding: 20px 0px;
-    font-family: 'Poppins', sans-serif;    
+/* section 2 css start */
+.hs2{
+padding-top: 3em !important;
+padding-bottom: 8em !important;
 }
+/* section 2 css end */
 
-.blurb hr{
-
-    border: 3px solid orange;
-    width: 67px;
-    position: absolute;    
-}
-.blurb p{
-    font-weight: 600;
-    font-size: 18px;
-
-}
-/* blurb css end */
-
-.section-2{
-    margin-top: 6em;
-    margin-bottom: 6em;
-}
-
+/* section 3 css start */
 .section-3{
-    background-color: #f6fafd;
-    padding: 40px;
-}
-
-.section-3 hr{
-        border: 3px solid orange;
-        width: 4%;
-        text-align: center;
-        display: block;
-        margin-inline-start: 11.5em;
-}
-
-.subs h5{
-    font-size: 27px;
-    font-weight: 500;
-}
-.company-photo{
-    padding-bottom: 8rem;
+    background-color: lightcyan;
 }
 .team{
-    max-width: 65%;
     float:top;
     margin-top: -10rem;
 }
+.subs h5{
+    font-size: 27px;
+    font-weight: 400;
+}
+.section-3 hr{
+    border: 3px solid orange;
+    width: 15%;
 
-.image-text h5{
-    font-weight: 700;
-    font-size: 28px;
-    color: #152d45;
-    text-align: center;
-    padding: 20px 0px;
-    font-family: 'Poppins', sans-serif;  
 }
 
-.move-box{
-    overflow: visible;
-    top: 200px;
+.btn-team{
+padding: 15px 30px !important;
+border-radius: 35px!important;
+border: 0px solid white;
 }
-
-.team-btn{
-    margin-top: 2rem;
-    background-color: #152d45;
-    border: 1px solid #152d45;
-    border-radius: 25px;
-}
-
-.team-btn a {
-    color: white;
-    font-size: 16px;
+.btn-team:hover{
     text-decoration: none;
-    padding: 0 20px;
 }
 
-.team-btn:hover {
-    margin-top: 2rem;
-    background-color: #152d45;
-    border: 1px solid #152d45;
-    border-radius: 25px;
-}
+/* section 3 css end */
 
-.quote-card {
-    color: #222222;
-    padding-top: 4rem;
-    position: relative;
-    overflow: hidden;
-    min-height: 120px;
-  }
-  .quote-card p {
-    font-size: 17px;
-    line-height: 1.5;
-    margin: 0;
-    max-width: 80%;
+/* section 4 css start */
+.blockquote{
+    padding-top: -em;
+    font-size: 1.3em;
     font-weight: 600;
-  }
+}
 
-  .number-text{
-      padding-top:2rem;
-      padding-bottom: 0px;
-  }
+.blockquote:before {
+    content: open-quote;
+}
+   
+.blockquote:after {
+    content: close-quote;
+}
 
-  .numbers{
-      font-size: 3em;
-      font-weight: 700;
-      color: #152d45;
-  }
-  
-  .subtitle{
-    font-weight: 700;
-    margin-top: -1em;
-  }
+.blockquote:before,
+.blockquote:after {
+ font-size: 3em;
+ color: black;
+ padding: 0;
+ position: relative;
+ top: .25em;
+ }
+ /* section 4 css end */
+ .blog{
+     padding-top: 4em;
+ }
+ .blog h3{
+     font-size: 2.5em;
+     font-weight: 800;
+     color: navy;
+ }
 
-  .text{
-      font-size: 18px;
-  }
+ .blog h4{
+    font-size: 1.4em;
+    font-weight: 800;
+    color: navy;
+}
+/* section 5 css start */
+.hero h3{
+    font-size: 1.8em;
+    font-weight: 800;
+    color: navy;
+}
+.table-row-1{
+ border-bottom: 1px black solid;
+}
+.table-column{
+border-left: 1px black solid;
 
-  .number-text{
-      justify-content: space-between;
-  }
+}
+/* section 5 css end */
+.degub{
+    border: 5px orange solid;
+}
 
-  .column{
-      width: 30%
-  }
- 
+.table-row-2{
+    padding-top: 0px !important;
+    margin-top: 0px;
+}
+.table-row-1{
+    padding-bottom: 0px !important;
+    margin-bottom:0px;
+}
+
+.table-row-1 h3{
+    font-size: 3em;
+    padding: 20px;
+    text-align: center;
+}
+.table-row-1 h4{
+    padding: 20px;
+    text-align: center;
+    font-weight: 300;
+    font-size: 2.0em;
+}
+
+.table-row-2 h3{
+    font-size: 3em;
+    padding: 20px;
+    text-align: center;
+}
+.table-row-2 h4{
+    padding: 20px;
+    text-align: center;
+    font-weight: 300;
+    font-size: 2.0em;
+}
+
+.grey{
+    background-color: grey;
+}
+/* section 6 css */
+.posted{
+    border: 2px black solid;
+    border-left: 10px navy solid;
+    background-color: white;
+    margin-bottom: 5em;
+    
+}
+.date{
+    color: lightgrey;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 0px;
+}
+
+.main-text{
+    font-size:1.5em;
+}
+
+.title{
+    padding-bottom: 4em !important;
+    margin-top: 5em;
+}
+.form-group {
+    margin-right: -10px !important;
+}
+.read-more a{
+    color: orange;
+}
+.footer{
+    background-color: navy;
+}
+.footer-menu{
+    border-bottom: lightgray 1px solid;
+}
+.footer li {
+    color: white;
+    text-decoration: none;
+    list-style: none;
+    line-height: 1.85rem;
+}
+.footer-title{
+    font-weight: 500;
+    font-size: 19px;
+    line-height: 3rem !important;
+}
+.footer a{
+    text-decoration: none;
+    color: white;
+}
+.footer a:hover{
+    text-decoration: none;
+    color: white;
+}
+.credits{
+    color:white;
+}
